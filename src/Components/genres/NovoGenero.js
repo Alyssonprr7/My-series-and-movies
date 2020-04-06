@@ -29,7 +29,7 @@ const NovoGenero = () => {
                 <input type="text" value={name} className="form-control" onChange={onChange} id="name" placeholder="Nome do gênero" />
             </div>
             <div>
-                <button type="submit" onClick={save} className="btn btn-primary">Salvar</button>
+                <button type="button" onClick={save} className="btn btn-primary">Salvar</button>
                 <button type="button" onClick={setSucess} className="btn btn-primary">Voltar </button>
             </div>
         </form>
