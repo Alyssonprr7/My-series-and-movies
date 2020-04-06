@@ -48,7 +48,7 @@ const Generos = () => {
 
     return(
         <div className = "container">
-            <h1>GENEROS</h1>
+            <h1>GÊNEROS</h1>
             <Link to ="/generos/novo" className="btn btn-info">Novo Gênero</Link>
             <table className="table table-dark">
                 <thead>

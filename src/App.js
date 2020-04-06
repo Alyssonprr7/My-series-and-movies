@@ -1,16 +1,16 @@
 import React from 'react';
-import Header from './Header';
+import Header from './Components/Header';
 import {
   BrowserRouter as Router,
   Route,
   Switch
 } from 'react-router-dom';
-import Generos from './Generos';
-import NovoGenero from "./NovoGenero";
-import EditarGenero from './EditarGenero';
-import Series from './Series';
-import NovaSerie from './NovaSerie';
-import InfoSeries from './InfoSeries';
+import Generos from './Components/genres/Generos';
+import NovoGenero from "./Components/genres/NovoGenero";
+import EditarGenero from './Components/genres/EditarGenero';
+import Series from './Components/series/Series';
+import NovaSerie from './Components/series/NovaSerie';
+import InfoSeries from './Components/series/InfoSeries';
 
 
 

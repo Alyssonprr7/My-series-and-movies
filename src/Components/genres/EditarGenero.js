@@ -33,13 +33,17 @@ const EditarGenero = ({match}) => { //Match veio das props
 
     return (
     <div className = "container">
-        <h1>Editar Gênero</h1>
+        <h1>EDITAR GÊNERO</h1>
         <form>
             <div className="form-group">
                 <label htmlFor="name">Nome</label>
                 <input type="text" value={name} className="form-control" onChange={onChange} id="name" placeholder="Nome do gênero" />
             </div>
-            <button onClick={save} className="btn btn-primary">Salvar</button>
+            <div>
+                <button type="submit" onClick={save} className="btn btn-primary">Salvar</button>
+                <button type="button" onClick={setSucess} className="btn btn-primary">Voltar </button>
+            </div>
+
         </form>
     </div>
     )
